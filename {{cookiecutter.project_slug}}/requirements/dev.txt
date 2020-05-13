@@ -2,6 +2,7 @@
 pip
 punch.py
 pre-commit
+pytest-watch
 black
 wheel
 watchdog
