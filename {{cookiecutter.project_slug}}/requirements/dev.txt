@@ -1,0 +1,12 @@
+-r test.txt
+pip
+punch.py
+pre-commit
+black
+wheel
+watchdog
+flake8
+Sphinx
+{% if cookiecutter.use_pypi_deployment_with_travis == 'y' -%}
+cryptography
+PyYAML{% endif %}
